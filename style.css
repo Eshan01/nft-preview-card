@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+*,
+*::before,
+*::after{box-sizing:border-box;}
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    background: hsl(217, 54%, 11%);   
+    --CBG: hsl(216, 50%, 16%);  /* Very dark blue for card background(CBG)*/
+    --line: hsl(215, 32%, 27%); 
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    width: 100vw;
+    font-size: 18px;
+    height:100vh;
+}
+.card{
+    background: var(--CBG);
+    width:90%;
+    padding:20px;
+    border-radius: 20px;
+    margin:50px 25px;
+    min-height: 70vh;
+   
+}
+.preview > img{
+    width:100%;
+    border-radius: 10px;
+}
+img{
+    position: relative;
+    bottom: -3px;
+}
+.content{
+    margin-bottom: 15px;
+    padding:5px 0px;
+    border:10px white;
+}
+.heading{
+    margin:20px auto;
+    color:var(--White);
+}
+.about{
+    margin:20px auto;
+    color:var(--Soft-blue);
+    font-weight:300px;
+}
+.rate{
+    font-weight:bolder;
+    display: inline-block;
+    color:var(--Cyan);
+}
+.time{
+    
+    float:right;
+    color:var(--Soft-blue);
+}
+.authr{
+    padding:10px;
+    color: var(--Soft-blue);
+    border-top:2px solid var(--line);
+}
+.authr img{
+    position: relative;
+    bottom: -10px;
+    margin-right:20px;
+    width:40px;
+    border:2px solid var(--White);
+    border-radius: 50%;
+    height:auto;
+
+}
+#creation{
+    display: inline;
+}
+.authr strong{
+    color:white;
+}
