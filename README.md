@@ -26,7 +26,10 @@ Users should be able to:
 
 ## My process
 
-- 
+- Properly formatted HTML file.
+- Applied CSS custom properties in an external stylesheet.
+- Mobile-first approach
+- Used media queries to make a responsive design. 
 
 ### Built with
 
@@ -39,17 +42,18 @@ Users should be able to:
 
 ### What I learned
 
-While working through this project. I learned a few things such as, how to position a div in the middle of the screen, how to use pseudo-classe in web development. Also, come to know about markdown language.
+Working on this project helped me to learn a few things like positioning a div in the middle of the screen, using pseudo-classes in web development. Also, come to know about markdown language.
 
 
 ### Continued development
 
+- Positioning of elements
 - Media Queries
 - Pseudo Classes
 
 ### Useful resource
 
-- [W3Schools](https://www.w3schools.com/css) - This helped me for  reason. I really liked this pattern and will use it going forward.
+- [W3Schools](https://www.w3schools.com/css) - This helped me in applying correct CSS properties.
 
 
 ## Author
