@@ -148,6 +148,7 @@ strong:hover{
         left: 50%;
         transform: translate(-50%, -50%);
         max-width:390px;
+        height: 70vh;
         padding: 25px;
     }   
     .preview img{
