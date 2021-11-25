@@ -152,7 +152,7 @@ strong:hover{
         padding: 25px;
     }   
     .preview img{
-        height: auto;
+        height: 90%;
         width:100%;
     }
     .attribution{
