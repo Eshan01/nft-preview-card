@@ -141,7 +141,7 @@ strong:hover{
         padding: 25px;
     }   
     .preview img{
-        height: 90%;
+        height: auto;
         width:100%;
     }
     div.preview:hover #hov{
