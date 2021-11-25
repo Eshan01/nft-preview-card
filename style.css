@@ -109,14 +109,6 @@ h2.heading:hover{
 .authr strong{
     color:white;
 }
-.attribution{
-    position: relative;
-    top:900px;
-    bottom: 0;
-    /* left:10%; */
-    width: 100%;
-    margin:0 auto;
-    }
 strong:hover{
     color: var(--Cyan);
     cursor: pointer;
@@ -126,8 +118,8 @@ strong:hover{
     .card{
         
         position: fixed;
-        top: 50%;
-        left: 50%;
+        top: 40%;
+        left: 40%;
         transform: translate(-50%, -50%);
         max-width:400px;
         min-height:100px;
@@ -136,31 +128,21 @@ strong:hover{
         height: 320px;
         width:100%;
     }        
-    .attribution{
-        text-align: center;
-        width: 100%;
-    }
+    
 }
 @media screen and (min-width:1200px){
     .card{
-        /* position: relative; */
-        top: 50%;
+        position: fixed;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         max-width:390px;
-        height: 70vh;
+        height: auto;
         padding: 25px;
     }   
     .preview img{
         height: auto;
         width:100%;
-    }
-    .attribution{
-        position: relative;
-        top:900px;
-        bottom: 0;
-        left:0;
-        text-align:center;
     }
     div.preview:hover #hov{
         display:block;   
