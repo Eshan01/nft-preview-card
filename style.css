@@ -14,7 +14,7 @@
     --Soft-blue: hsl(215, 51%, 70%);
     --Cyan: hsl(178, 100%, 50%);
     --bg: hsl(217, 54%, 11%);   
-    --CBG: hsl(216, 50%, 16%);  /* Very dark blue for card background(CBG)*/
+    --CBG: hsl(216, 50%, 16%);  
     --line: hsl(215, 32%, 27%); 
     --White: hsl(0, 0%, 100%);
 }
@@ -110,7 +110,8 @@ h2.heading:hover{
     color:white;
 }
 .attribution{
-    position: fixed;
+    position: relative;
+    top:900px;
     bottom: 0;
     /* left:10%; */
     width: 100%;
@@ -154,7 +155,8 @@ strong:hover{
         width:100%;
     }
     .attribution{
-        position: fixed;
+        position: relative;
+        top:900px;
         bottom: 0;
         left:0;
         text-align:center;
