@@ -53,7 +53,7 @@ Working on this project helped me to learn a few things like positioning a div i
 
 ### Useful resource
 
-- [W3Schools](https://www.w3schools.com/css) - This helped me for  reason. I really liked this pattern and will use it going forward.
+- [W3Schools](https://www.w3schools.com/css) - This helped me in applying correct CSS properties.
 
 
 ## Author
