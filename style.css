@@ -84,7 +84,9 @@ img{
     position: relative;
     bottom: -1px;
 }
-
+#hov{
+    max-width: 2em;
+}
 .content{
     margin-bottom: 15px;
     border:10px white;
@@ -148,7 +150,9 @@ strong:hover{
         height: 320px;
         width:100%;
     }        
-    
+    img#hov{
+        max-width: 2em;
+    }
 }
 @media screen and (min-width:1200px){
     .card{
@@ -160,6 +164,9 @@ strong:hover{
         height: auto;
         padding: 25px;
     }   
+    #hov{
+        max-width: 3em;
+    }
     .preview #hvs{
         height: auto;
         width:100%;
